@@ -1,0 +1,34 @@
+.header {
+background-color: #EAC926;
+}
+h1.resaltado {
+    background-color: #ebebeb;
+    color: #666;
+}
+.resaltar{
+    font-weight: bold;
+}
+.precio {
+    font-size: 18px; 
+    color: #666
+}
+.texto-comun {
+    color: #666;
+}
+.descripciones {
+    color:#666;
+    font-size: 16px; 
+}    
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-size: 12px;
+}
+.titular { font-size: 24px;
+    color: #666;
+}
+.descuento { font-size: 16px;
+    color:#39b54a
+}
