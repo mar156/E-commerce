@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="header"><img src= "/imagenes/logo-mercado-liebre.svg" >
+    <p > (Buscador) Buscar productos, marcas y más</p>
+    <p > Comprá en cuotas y sin tarjeta de crédito</p>
+    <ul>
+    <li> Ofertas</li>
+    <li>Tiendas Oficiales</li>
+    <li> Vender</li>
+    <li> Ayuda</li> 
+    </ul>
+    <ul>
+        <li> Creá tu cuenta</li>
+        <li> Ingresá</li>
+        <li>Más compras</li>
+    </ul>
+    </div>
+    <img src= "/imagenes/img-home-banner.jpg" width="100%">
+    <form action="validar.php" method="POST">
+        
+        <input type="text" name="nombreCompleto"  placeholder="Nombre y apellido"><br>
+        <input type="text" name="nombreUsuario"  placeholder="Nombre de usuario"><br>
+        <input type="text" name="Email"  placeholder="email"><br>
+        <label for="Fecha"> Fecha de nacimiento </label><br>
+        <input type="date" name="Fecha" ><br>
+        <input type="text" name="Domicilio" placeholder="domicilio"><br>
+        <p>
+            <label for="Perfil" class="resaltar"> Perfil del usuario </label> <br>
+        </p>
+        <p>   
+            <input type="radio" name="Perfil" value="Comprador"> Comprador  
+            <input type="radio" name="Perfil" value="Vendedor"> Vendedor
+            <br>
+        </p>
+        <p>
+            <label for="categorias" class="resaltar"> Categorías de interés</label><br>
+        </p>
+        <p>   
+            <input type="checkbox" name="categorias" value="electro"> Electro
+            <input type="checkbox" name="categorias" value="moda"> Moda
+            <input type="checkbox" name="categorias" value="hogar">Hogar
+            <input type="checkbox" name="categorias" value="jugueteria">Juguetería
+            <input type="checkbox" name="categorias" value=" vida-sana"> Vida sana 
+
+        </p>
+        <p>
+            <label class="resaltar"> Elegí tu foto de usuario </label><br>
+        </p>
+        <p>    
+            <button type="button" class="boton">Seleccionar el archivo  </button> 
+            <label>No se eligió el archivo</label>
+        </p>
+        
+         <input type="password" name="contraseña"  placeholder="Elegí tu contraseña"><br>
+         <input type="password" name="confirma-contraseña"  placeholder="Confirmá tu contraseña"><br>
+        <p>
+            <button type="submit" class="boton"> Enviar </button>
+            <button type="reset" class="boton"> Borrar </button>
+     
+        </p>  
+    </form>
+    <p class='texto-comun'><b>Pagá con tarjeta o en efectivo</b></p>
+    <p class='texto-comun'>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+       puntos de pago. ¡Y siempre es seguro!</p>
+
+    <p class='texto-comun'><b>Envío gratis desde $1.999</b></p>
+    <p class='texto-comun'>Solo por estar registrado en Mercado Liebre tenés envíos gratis en miles de productos.
+        Es un beneficio de Mercado Puntos </p>
+
+    <p class='texto-comun'><b>Seguridad, de principio a fin</b></p>
+    <p class='texto-comun'>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+        porque estás siempre protegid@.
+    </p>
+
+    <p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
+
+</body>    
