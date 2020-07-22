@@ -1,34 +1,120 @@
-.header {
-background-color: #EAC926;
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    columns: #666;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #ebebeb;;
 }
-h1.resaltado {
-    background-color: #ebebeb;
+
+header {
+background-color: #EAC926;
+display: flex;
+}
+
+.primerRenglon {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.primerRenglon .logo1 {
+    
+    width: 48%;
+    margin:1%;
+}
+
+.primerRenglon .buscador {
+    width:48%;
+    height: 1em;
+    margin:1%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.buscador .barra {
+    width:100%;
+}
+
+header .item {
+    justify-content:center;
+    width:100%
+}
+
+header .texto {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%
+    
+}
+
+header .menu{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+}
+
+section .banner {
+    width: 100%;
+}
+
+.vistaProducto {
+    display:flex;
+    flex-wrap:wrap;
+    margin: 10px 15px 10px 15px;
+    background-color:white ;
+    flex-direction: column;
+}
+
+
+.vistaProducto .producto {
+    display: block;
+    width: 90vw;
+    
+  }
+
+.vistaProducto i {
+    color:#39b54a;
+    display: block;
+    font-size: 1.125em;
+    align-self: flex-end;
+    margin-right: 3em;
+   
+}
+
+.vistaProducto .precio {
+    font-size: 1.125em; 
     color: #666;
+    display: inline;
+    
+}
+
+.vistaProducto .descuento {
+    display: inline;
+    font-size: 16px;
+    color:#39b54a
+}
+.vistaProducto .descripciones {
+    display: inline;
+    color:#666;
+    font-size: 16px;}
+
+h1.resaltado {
+   color: #666;
 }
 .resaltar{
     font-weight: bold;
 }
-.precio {
-    font-size: 18px; 
-    color: #666
-}
-.texto-comun {
-    color: #666;
-}
-.descripciones {
-    color:#666;
-    font-size: 16px; 
-}    
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
-p {
-    font-size: 12px;
-}
-.titular { font-size: 24px;
+
+.titular { 
+    font-size: 24px;
     color: #666;
 }
-.descuento { font-size: 16px;
-    color:#39b54a
+
+.footer {
+    margin: 10px 15px 10px 15px;
+    background-color: white;
+    font-size: 12px;
+    color: #666
 }
