@@ -8,6 +8,7 @@ body {
 header {
 background-color: #EAC926;
 display: flex;
+width:100%;
 }
 
 .primerRenglon {
