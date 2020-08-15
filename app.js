@@ -6,6 +6,7 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
+app.
 app.get('/crear-cuenta', (req,res) =>{
     res.sendFile(__dirname + '/formulario-usuario.html');
 });
