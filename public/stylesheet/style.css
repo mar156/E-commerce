@@ -1,11 +1,9 @@
 body {
     margin:0;
     font-family: 'Roboto', sans-serif;
-    columns: #666;
     display:flex;
     flex-wrap: wrap;
-    background-color: #ebebeb;;
-}
+    }
 
 header {
 background-color: #EAC926;
@@ -20,13 +18,12 @@ display: flex;
 .primerRenglon .logo1 {
     
     width: 48%;
-    margin:1%;
+ 
 }
 
 .primerRenglon .buscador {
     width:48%;
     height: 1em;
-    margin:1%;
     display:flex;
     flex-wrap:wrap;
 }
@@ -57,23 +54,26 @@ header .menu{
 section .banner {
     width: 100%;
 }
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+    }
 .vistaProducto {
     display:flex;
     flex-wrap:wrap;
-    margin: 10px 15px 10px 15px;
     background-color:white ;
     flex-direction: column;
+    border: solid 1px #ebebeb;
 }
 
 
-.vistaProducto .producto {
+main .vistaProducto .producto {
     display: block;
     width: 90vw;
     
   }
 
-.vistaProducto i {
+main .vistaProducto i {
     color:#39b54a;
     display: block;
     font-size: 1.125em;
@@ -82,19 +82,19 @@ section .banner {
    
 }
 
-.vistaProducto .precio {
+main .vistaProducto .precio {
     font-size: 1.125em; 
     color: #666;
     display: inline;
     
 }
 
-.vistaProducto .descuento {
+main .vistaProducto .descuento {
     display: inline;
     font-size: 16px;
     color:#39b54a
 }
-.vistaProducto .descripciones {
+main .vistaProducto .descripciones {
     display: inline;
     color:#666;
     font-size: 16px;}
@@ -116,5 +116,8 @@ h1.resaltado {
     margin: 10px 15px 10px 15px;
     background-color: white;
     font-size: 12px;
-    color: #666
+    color: #666;
+}
+.footer i {
+   color: #1259c3;;
 }
