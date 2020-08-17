@@ -11,15 +11,25 @@
 </head>
 <body>
     <header> 
-        <div class="header">
-            <img src= "/imagenes/logo-mercado-liebre.svg" >
-            <input type="text" placeholder="Buscar productos, marcas y más">
-            <i class="fas fa-search"></i>
-            <p> 
-                <i class="fas fa-hand-holding-usd"></i>
-             Comprá en cuotas y sin tarjeta de crédito</p>
-            <span> 
-                <select name="opciones">
+        <div>
+            <div class="primerRenglon">
+                <img class= "logo1" src= "/imagenes/logo-mercado-liebre.svg" width="50%" >
+            </div> 
+            
+            <div class="buscador">
+                <input class="barra" type="text" placeholder="Buscar productos, marcas y más">
+                <i class="fas fa-search"></i>   
+            </div>
+                                 
+            <div class= "texto">
+                <p> 
+                    <i class="fas fa-hand-holding-usd"></i>
+                    Comprá en cuotas y sin tarjeta de crédito
+                </p>
+            </div>
+            
+            <span class="menu"> 
+                <select class="" class="fas fa-bars">
                     <option value="oferta"> Ofertas</option>
                     <option value="tiendas">Tiendas Oficiales</option>
                     <option value="vender"> Vender</option>
@@ -27,11 +37,11 @@
                     <option value="newAccount"> Creá tu cuenta <i class="far fa-address-card"></i></option>
                     <option value="sign-in">Ingresá <i class="fas fa-sign-in-alt"></i> </option>    
                     <option value="more">Más compras<i class="fas fa-shopping-basket"></i></li>
+                
                 </select>
             </span>
         </div>
-    </header>
-    <img src= "/imagenes/img-home-banner.jpg" width="100%">
+    </header>    <img src= "/imagenes/img-home-banner.jpg" width="100%">
     
     <form action="validar.php" method="POST"> 
         <p>
