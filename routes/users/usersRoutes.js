@@ -1,11 +1,9 @@
 const express = require('express');
 const router = express.Router();
+const path = require('path');
+const usersController= require(path.join(__dirname, '/../../controllers/users/usersController'));
 
-(req,res) =>{
-    res.sendFile(__dirname + '/views/formulario-usuario.html');
-}
+router.get('/login', usersController.login);
+router.get('/newAccount', usersController.createAccount);
 
-(req,res) => {
-    res.sendFile(__dirname + '/views/iniciar-sesion.html');
-}
 module.exports = router;

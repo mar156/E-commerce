@@ -1,5 +1,15 @@
+const express = require('express');
 
+const controller = {
+createAccount:  (req,res) =>{
+    res.render('formulario-usuario');
+},
 
-(req,res) =>{
-    res.sendFile(__dirname + '/views/formulario-usuario.html');
+login:  (req, res) => {
+    res.render('iniciar-sesion')
 }
+
+}
+
+
+module.exports= controller;

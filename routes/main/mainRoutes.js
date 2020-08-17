@@ -4,12 +4,7 @@ const path = require('path');
 const mainController= require(path.join(__dirname, '/../../controllers/main/mainController'));
 
 
-
 router.get('/', mainController.index );
-
-
-
-
 
 
 module.exports = router;
