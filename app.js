@@ -8,13 +8,13 @@ app.set( 'view engine', 'ejs');
 app.use(express.static('public'));
 
 /// RUTA MAIN
-app.get('/', mainRoutes);
+app.use('/', mainRoutes);
 
 // RUTA PRODUCTS
-app.get('/products', productRoutes);
+app.use('/products', productRoutes);
 
 //RUTA USUARIOS
-app.get('/users', usersRoutes)
+app.use('/users', usersRoutes)
 
 //PUERTO
 
