@@ -5,9 +5,9 @@ const productController= require(path.join(__dirname, '/../../controllers/produc
 
 
 router.get('/', productController.index)
-router.get('/:id')
-router.get('/create')
-router.get('/edit/:id')
+router.get('/:id', productController.show)
+router.get('/create', productController.create)
+router.get('/edit/:id', productController.edit)
 
 
 module.exports = router;
